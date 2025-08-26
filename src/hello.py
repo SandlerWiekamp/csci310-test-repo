@@ -8,6 +8,15 @@ copied from https://eikonomega.medium.com/getting-started-with-sphinx-autodoc-pa
 | Date: 2025 August 24
 """ 
 
+def test(name):
+    """A simple function that prints a greeting.
+
+    :param name: The name to greet.
+    :type name: str
+    :return: None
+    """
+    print(f"Hello, {name}!")
+
 print("Hello World")
 
 print("extra words just in case to check it")
